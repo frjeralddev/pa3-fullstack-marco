@@ -81,7 +81,7 @@ Antes de ejecutar el proyecto, es necesario contar con:
 ### 5.1. Clonar el repositorio
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/frjeralddev/pa3-fullstack-marco.git
 ```
 
 Ingresar a la carpeta del proyecto:
@@ -237,8 +237,8 @@ El proyecto implementa mecanismos básicos de seguridad:
 
 ## 11. Autor
 
-Desarrollado como parte del Prueba Académico N.º 3 (PA3).
+Desarrollado como parte del Producto Académico N.º 3 (PA3).
 
 ## 12. Repositorio
 
-[Ver repositorio en GitHub](URL_DEL_REPOSITORIO)
+[Ver repositorio en GitHub](https://github.com/frjeralddev/pa3-fullstack-marco)
