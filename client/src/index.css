@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-agency-heading: "Instrument Sans", sans-serif;
+  --font-agency-body: "Mona Sans", sans-serif;
+  --font-agency-quote: "Outfit", sans-serif;
+  --font-agency-caption: "Inter", sans-serif;
+
+  --color-primary: #E32636;
+  --color-brand-white: #FFFFFF;
+  --color-secondary: #100609;
+  --color-third: #25151A;
+  --color-muted: #A69A9E;
+  --color-border: #493039;
+  --color-surface-mint: #F2D5D8;
+  --color-section-light: #EEE6E8;
+
+  --color-accent-blue: #172E50;
+}
+
+@layer base{
+  h1,h2,h3,h4,h5,h6 {
+    font-family: var(--font-agency-heading);
+    font-weight: 600;
+  }
+  body {
+    color: var(--color-brand-white);
+    font-family: var(--font-agency-body);
+  }
+}
